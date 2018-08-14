@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2671E2C4212283E40064B26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2C3212283E40064B26C /* AppDelegate.m */; };
+		2671E2C7212283E40064B26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2C6212283E40064B26C /* ViewController.m */; };
+		2671E2CA212283E40064B26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2671E2C8212283E40064B26C /* Main.storyboard */; };
+		2671E2CC212283E50064B26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2671E2CB212283E50064B26C /* Assets.xcassets */; };
+		2671E2CF212283E50064B26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2671E2CD212283E50064B26C /* LaunchScreen.storyboard */; };
+		2671E2D2212283E50064B26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2D1212283E50064B26C /* main.m */; };
+		2671E2DC212283E60064B26C /* ViewBitCoinObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2DB212283E60064B26C /* ViewBitCoinObjectiveCTests.m */; };
+		2671E2E7212283E60064B26C /* ViewBitCoinObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2E6212283E60064B26C /* ViewBitCoinObjectiveCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2671E2D8212283E60064B26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2671E2B7212283E40064B26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2671E2BE212283E40064B26C;
+			remoteInfo = ViewBitCoinObjectiveC;
+		};
+		2671E2E3212283E60064B26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2671E2B7212283E40064B26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2671E2BE212283E40064B26C;
+			remoteInfo = ViewBitCoinObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2671E2BF212283E40064B26C /* ViewBitCoinObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBitCoinObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2671E2C2212283E40064B26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2671E2C3212283E40064B26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2671E2C5212283E40064B26C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2671E2C6212283E40064B26C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2671E2C9212283E40064B26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2671E2CB212283E50064B26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2671E2CE212283E50064B26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2671E2D0212283E50064B26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2671E2D1212283E50064B26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2671E2D7212283E60064B26C /* ViewBitCoinObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewBitCoinObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2671E2DB212283E60064B26C /* ViewBitCoinObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBitCoinObjectiveCTests.m; sourceTree = "<group>"; };
+		2671E2DD212283E60064B26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2671E2E2212283E60064B26C /* ViewBitCoinObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewBitCoinObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2671E2E6212283E60064B26C /* ViewBitCoinObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBitCoinObjectiveCUITests.m; sourceTree = "<group>"; };
+		2671E2E8212283E60064B26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2671E2BC212283E40064B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2D4212283E60064B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2DF212283E60064B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2671E2B6212283E40064B26C = {
+			isa = PBXGroup;
+			children = (
+				2671E2C1212283E40064B26C /* ViewBitCoinObjectiveC */,
+				2671E2DA212283E60064B26C /* ViewBitCoinObjectiveCTests */,
+				2671E2E5212283E60064B26C /* ViewBitCoinObjectiveCUITests */,
+				2671E2C0212283E40064B26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2671E2C0212283E40064B26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2671E2BF212283E40064B26C /* ViewBitCoinObjectiveC.app */,
+				2671E2D7212283E60064B26C /* ViewBitCoinObjectiveCTests.xctest */,
+				2671E2E2212283E60064B26C /* ViewBitCoinObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2671E2C1212283E40064B26C /* ViewBitCoinObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				2671E2C2212283E40064B26C /* AppDelegate.h */,
+				2671E2C3212283E40064B26C /* AppDelegate.m */,
+				2671E2C5212283E40064B26C /* ViewController.h */,
+				2671E2C6212283E40064B26C /* ViewController.m */,
+				2671E2C8212283E40064B26C /* Main.storyboard */,
+				2671E2CB212283E50064B26C /* Assets.xcassets */,
+				2671E2CD212283E50064B26C /* LaunchScreen.storyboard */,
+				2671E2D0212283E50064B26C /* Info.plist */,
+				2671E2D1212283E50064B26C /* main.m */,
+			);
+			path = ViewBitCoinObjectiveC;
+			sourceTree = "<group>";
+		};
+		2671E2DA212283E60064B26C /* ViewBitCoinObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2671E2DB212283E60064B26C /* ViewBitCoinObjectiveCTests.m */,
+				2671E2DD212283E60064B26C /* Info.plist */,
+			);
+			path = ViewBitCoinObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		2671E2E5212283E60064B26C /* ViewBitCoinObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2671E2E6212283E60064B26C /* ViewBitCoinObjectiveCUITests.m */,
+				2671E2E8212283E60064B26C /* Info.plist */,
+			);
+			path = ViewBitCoinObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2671E2BE212283E40064B26C /* ViewBitCoinObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2671E2EB212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveC" */;
+			buildPhases = (
+				2671E2BB212283E40064B26C /* Sources */,
+				2671E2BC212283E40064B26C /* Frameworks */,
+				2671E2BD212283E40064B26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewBitCoinObjectiveC;
+			productName = ViewBitCoinObjectiveC;
+			productReference = 2671E2BF212283E40064B26C /* ViewBitCoinObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2671E2D6212283E60064B26C /* ViewBitCoinObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2671E2EE212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveCTests" */;
+			buildPhases = (
+				2671E2D3212283E60064B26C /* Sources */,
+				2671E2D4212283E60064B26C /* Frameworks */,
+				2671E2D5212283E60064B26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2671E2D9212283E60064B26C /* PBXTargetDependency */,
+			);
+			name = ViewBitCoinObjectiveCTests;
+			productName = ViewBitCoinObjectiveCTests;
+			productReference = 2671E2D7212283E60064B26C /* ViewBitCoinObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2671E2E1212283E60064B26C /* ViewBitCoinObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2671E2F1212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveCUITests" */;
+			buildPhases = (
+				2671E2DE212283E60064B26C /* Sources */,
+				2671E2DF212283E60064B26C /* Frameworks */,
+				2671E2E0212283E60064B26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2671E2E4212283E60064B26C /* PBXTargetDependency */,
+			);
+			name = ViewBitCoinObjectiveCUITests;
+			productName = ViewBitCoinObjectiveCUITests;
+			productReference = 2671E2E2212283E60064B26C /* ViewBitCoinObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2671E2B7212283E40064B26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Bruno Ferreira De Oliveira";
+				TargetAttributes = {
+					2671E2BE212283E40064B26C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2671E2D6212283E60064B26C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2671E2BE212283E40064B26C;
+					};
+					2671E2E1212283E60064B26C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2671E2BE212283E40064B26C;
+					};
+				};
+			};
+			buildConfigurationList = 2671E2BA212283E40064B26C /* Build configuration list for PBXProject "ViewBitCoinObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2671E2B6212283E40064B26C;
+			productRefGroup = 2671E2C0212283E40064B26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2671E2BE212283E40064B26C /* ViewBitCoinObjectiveC */,
+				2671E2D6212283E60064B26C /* ViewBitCoinObjectiveCTests */,
+				2671E2E1212283E60064B26C /* ViewBitCoinObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2671E2BD212283E40064B26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2671E2CF212283E50064B26C /* LaunchScreen.storyboard in Resources */,
+				2671E2CC212283E50064B26C /* Assets.xcassets in Resources */,
+				2671E2CA212283E40064B26C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2D5212283E60064B26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2E0212283E60064B26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2671E2BB212283E40064B26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2671E2C7212283E40064B26C /* ViewController.m in Sources */,
+				2671E2D2212283E50064B26C /* main.m in Sources */,
+				2671E2C4212283E40064B26C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2D3212283E60064B26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2671E2DC212283E60064B26C /* ViewBitCoinObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2671E2DE212283E60064B26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2671E2E7212283E60064B26C /* ViewBitCoinObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2671E2D9212283E60064B26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2671E2BE212283E40064B26C /* ViewBitCoinObjectiveC */;
+			targetProxy = 2671E2D8212283E60064B26C /* PBXContainerItemProxy */;
+		};
+		2671E2E4212283E60064B26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2671E2BE212283E40064B26C /* ViewBitCoinObjectiveC */;
+			targetProxy = 2671E2E3212283E60064B26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2671E2C8212283E40064B26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2671E2C9212283E40064B26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2671E2CD212283E50064B26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2671E2CE212283E50064B26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2671E2E9212283E60064B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2671E2EA212283E60064B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2671E2EC212283E60064B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2671E2ED212283E60064B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2671E2EF212283E60064B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewBitCoinObjectiveC.app/ViewBitCoinObjectiveC";
+			};
+			name = Debug;
+		};
+		2671E2F0212283E60064B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewBitCoinObjectiveC.app/ViewBitCoinObjectiveC";
+			};
+			name = Release;
+		};
+		2671E2F2212283E60064B26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViewBitCoinObjectiveC;
+			};
+			name = Debug;
+		};
+		2671E2F3212283E60064B26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewBitCoinObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BitCoin.ViewBitCoinObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViewBitCoinObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2671E2BA212283E40064B26C /* Build configuration list for PBXProject "ViewBitCoinObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2671E2E9212283E60064B26C /* Debug */,
+				2671E2EA212283E60064B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2671E2EB212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2671E2EC212283E60064B26C /* Debug */,
+				2671E2ED212283E60064B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2671E2EE212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2671E2EF212283E60064B26C /* Debug */,
+				2671E2F0212283E60064B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2671E2F1212283E60064B26C /* Build configuration list for PBXNativeTarget "ViewBitCoinObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2671E2F2212283E60064B26C /* Debug */,
+				2671E2F3212283E60064B26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2671E2B7212283E40064B26C /* Project object */;
+}

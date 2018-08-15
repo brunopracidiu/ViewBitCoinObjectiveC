@@ -10,4 +10,9 @@
 
 @interface DashboardCoinTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *lblName;
+@property (weak, nonatomic) IBOutlet UILabel *lblPrice;
+@property (weak, nonatomic) IBOutlet UILabel *lblVolumeQuote;
+@property (weak, nonatomic) IBOutlet UILabel *lblChange;
+
 @end

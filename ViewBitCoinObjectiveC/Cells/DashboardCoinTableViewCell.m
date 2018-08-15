@@ -10,6 +10,11 @@
 
 @implementation DashboardCoinTableViewCell
 
+@synthesize lblName;
+@synthesize lblPrice;
+@synthesize lblChange;
+@synthesize lblVolumeQuote;
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

@@ -10,11 +10,11 @@
 
 @interface Coin : NSObject
 
-//let id: String
-//let price: String
-//let volumeQuote: String
-//let change: Float
+@property (nonatomic, retain) NSString *id;
+@property (nonatomic, retain) NSString *price;
+@property (nonatomic, retain) NSString *volumeQuote;
+@property float change;
 
-  @property (nonatomic, retain) 
+-(id)initWithDictionary:(NSDictionary*)dict;
 
 @end

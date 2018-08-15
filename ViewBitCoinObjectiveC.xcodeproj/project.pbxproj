@@ -19,6 +19,7 @@
 		2671E2FF212291DA0064B26C /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E2FE212291DA0064B26C /* Coin.m */; };
 		2671E302212291EA0064B26C /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E301212291EA0064B26C /* ServiceBase.m */; };
 		2671E305212291FD0064B26C /* ServiceCoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671E304212291FD0064B26C /* ServiceCoin.m */; };
+		26BA3570212425E90058746F /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA356F212425E90058746F /* LoadingView.m */; };
 		5D2ACADE33A3B513FE30A62E /* libPods-ViewBitCoinObjectiveCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A3C84F082ACCF4DEC8515 /* libPods-ViewBitCoinObjectiveCUITests.a */; };
 		B837FDE9415A069DA8102FD8 /* libPods-ViewBitCoinObjectiveCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 436D05900BD179A4C3788A93 /* libPods-ViewBitCoinObjectiveCTests.a */; };
 		D7BD7355E000D4D70A947229 /* libPods-ViewBitCoinObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA05B9FA9BC7EF377C3C10 /* libPods-ViewBitCoinObjectiveC.a */; };
@@ -68,6 +69,8 @@
 		2671E301212291EA0064B26C /* ServiceBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceBase.m; sourceTree = "<group>"; };
 		2671E303212291FD0064B26C /* ServiceCoin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceCoin.h; sourceTree = "<group>"; };
 		2671E304212291FD0064B26C /* ServiceCoin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceCoin.m; sourceTree = "<group>"; };
+		26BA356E212425E90058746F /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		26BA356F212425E90058746F /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		436D05900BD179A4C3788A93 /* libPods-ViewBitCoinObjectiveCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewBitCoinObjectiveCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8AC399326B5A1EDAFB48A3 /* Pods-ViewBitCoinObjectiveCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewBitCoinObjectiveCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewBitCoinObjectiveCUITests/Pods-ViewBitCoinObjectiveCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81EC37EBA199388808404D5D /* Pods-ViewBitCoinObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewBitCoinObjectiveC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewBitCoinObjectiveC/Pods-ViewBitCoinObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 			children = (
 				2671E2FD212291DA0064B26C /* Coin.h */,
 				2671E2FE212291DA0064B26C /* Coin.m */,
+				26BA356E212425E90058746F /* LoadingView.h */,
+				26BA356F212425E90058746F /* LoadingView.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2671E2FF212291DA0064B26C /* Coin.m in Sources */,
+				26BA3570212425E90058746F /* LoadingView.m in Sources */,
 				2671E2C7212283E40064B26C /* ViewController.m in Sources */,
 				2671E305212291FD0064B26C /* ServiceCoin.m in Sources */,
 				2671E302212291EA0064B26C /* ServiceBase.m in Sources */,

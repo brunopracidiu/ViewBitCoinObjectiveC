@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ServiceCoin.h"
+#import "Coin.h"
+#import "DashboardCoinTableViewCell.h"
+#import "LoadingView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-
+@property (weak, nonatomic) IBOutlet UITableView *tableViewCoins;
 
 @end
 

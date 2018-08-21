@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LoadingView.h"
 
 @interface ViewController (){
     NSMutableArray *listCoins;
@@ -20,14 +21,22 @@
 @synthesize tableViewCoins;
 
 - (void)viewDidLoad {
-    
-    [[LoadingView alloc] Display];
-    [self GetDataCoin];
+    timerUpdate = [NSTimer scheduledTimerWithTimeInterval:15
+                                                   target:self
+                                                 selector:@selector(GetDataCoin)
+                                                 userInfo:nil
+                                                  repeats:YES];
     
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void) viewDidAppear:(BOOL)animated
+{
+    [LoadingView Show];
+    [self GetDataCoin];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -36,17 +45,31 @@
 
 -(void) GetDataCoin{
     listCoins = [NSMutableArray new];
-    
     [[[ServiceCoin alloc] init] ServiceDataCoin:^(BOOL sucess, id result) {
         if (sucess) {
+            [LoadingView Hide];
             [self ConvertToObjectCoin:result];
-            [[LoadingView alloc] Hide];
+            [self EffectUpdateTable];
             [self.tableViewCoins reloadData];
         }else{
             
         }
     }];
     
+}
+
+-(void) EffectUpdateTable{
+    
+    [UIView animateWithDuration:0.2
+                     animations:^{
+                         self.tableViewCoins.alpha = 0.1;
+                     }
+                     completion:^(BOOL complete){
+                         [UIView animateWithDuration:0.2
+                                          animations:^{
+                                              self.tableViewCoins.alpha = 1;
+                                          }];
+                     }];
 }
 
 -(void) ConvertToObjectCoin:(NSArray*) result {

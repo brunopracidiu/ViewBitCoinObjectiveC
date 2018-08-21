@@ -6,11 +6,9 @@
 //  Copyright © 2018 Bruno Ferreira De Oliveira. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "ServiceCoin.h"
 #import "Coin.h"
 #import "DashboardCoinTableViewCell.h"
-#import "LoadingView.h"
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 

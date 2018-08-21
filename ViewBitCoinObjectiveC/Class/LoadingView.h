@@ -10,8 +10,8 @@
 
 @interface LoadingView : NSObject
 
--(void) Display;
--(void) Hide;
++(void) Show;
++(void) Hide;
 
     
 @end

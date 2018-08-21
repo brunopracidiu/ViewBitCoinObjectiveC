@@ -78,7 +78,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                            <color key="backgroundColor" red="0.10196078431372549" green="0.10980392156862745" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="gB9-jZ-aV9" firstAttribute="leading" secondItem="SNV-bF-EKB" secondAttribute="leading" constant="12" id="4v0-Kz-IBi"/>
                                                 <constraint firstItem="m5i-0I-aPC" firstAttribute="leading" secondItem="SNV-bF-EKB" secondAttribute="leading" constant="12" id="9Ni-S0-PEK"/>
@@ -95,6 +95,7 @@
                                                 <constraint firstItem="gB9-jZ-aV9" firstAttribute="top" secondItem="m5i-0I-aPC" secondAttribute="bottom" id="yiX-0E-iBI"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="lblChange" destination="gB9-jZ-aV9" id="nRI-PR-0cc"/>
                                             <outlet property="lblName" destination="m5i-0I-aPC" id="coV-x6-Xzl"/>
@@ -119,15 +120,26 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view alpha="0.10000000149011612" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZc-mf-LZi">
+                                <rect key="frame" x="6" y="78" width="363" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="koN-LK-Q9p"/>
+                                    <constraint firstAttribute="width" constant="363" id="mPn-BL-iCa"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="X39-zN-xba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="BjM-I3-XV3"/>
                             <constraint firstItem="qdU-x8-4wq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cpg-3u-LAZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdU-x8-4wq" secondAttribute="trailing" id="Fyo-Bt-yHh"/>
+                            <constraint firstItem="eZc-mf-LZi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="GH4-ry-h90"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qdU-x8-4wq" secondAttribute="bottom" id="M27-PX-ZaH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZc-mf-LZi" secondAttribute="trailing" constant="6" id="YnU-b6-rbj"/>
                             <constraint firstItem="X39-zN-xba" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="osU-mR-OUD"/>
                             <constraint firstItem="qdU-x8-4wq" firstAttribute="top" secondItem="X39-zN-xba" secondAttribute="bottom" constant="8" id="q5G-hM-IIs"/>
+                            <constraint firstItem="eZc-mf-LZi" firstAttribute="top" secondItem="X39-zN-xba" secondAttribute="bottom" constant="7" id="s8N-cS-NeI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		03CD4CB828A5C67DA1FE111A /* Pods-ViewBitCoinObjectiveCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewBitCoinObjectiveCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewBitCoinObjectiveCTests/Pods-ViewBitCoinObjectiveCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		202B834C5D8A0588EBA01A7D /* Pods-ViewBitCoinObjectiveCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewBitCoinObjectiveCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewBitCoinObjectiveCTests/Pods-ViewBitCoinObjectiveCTests.release.xcconfig"; sourceTree = "<group>"; };
+		266ADBC4212A914D00CE5E28 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2671E2BF212283E40064B26C /* ViewBitCoinObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBitCoinObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2671E2C2212283E40064B26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2671E2C3212283E40064B26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 				2671E2FE212291DA0064B26C /* Coin.m */,
 				26BA356E212425E90058746F /* LoadingView.h */,
 				26BA356F212425E90058746F /* LoadingView.m */,
+				266ADBC4212A914D00CE5E28 /* PrefixHeader.pch */,
 			);
 			path = Class;
 			sourceTree = "<group>";

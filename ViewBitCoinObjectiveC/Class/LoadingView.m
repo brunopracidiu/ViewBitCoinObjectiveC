@@ -17,11 +17,11 @@ static UIView *viewLoading = nil;
 
 @implementation LoadingView
 
--(void)CreateViewLoading{
++(void)CreateViewLoading{
 
     UIWindow *mainWindow = [[UIApplication sharedApplication].delegate window];
     viewLoading = [[UIView alloc] initWithFrame:mainWindow.frame];
-    viewLoading.backgroundColor = [UIColor colorWithWhite:0 alpha:0.9];
+    viewLoading.backgroundColor = [UIColor colorWithWhite:0 alpha:0.8];
 
     UILabel *lblIndicatorProcess = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, viewLoading.frame.size.width, 80)];
     lblIndicatorProcess.textAlignment = NSTextAlignmentCenter;
@@ -33,7 +33,6 @@ static UIView *viewLoading = nil;
                                            lblIndicatorProcess.frame.size.width,
                                            lblIndicatorProcess.frame.size.height);
     [viewLoading addSubview:lblIndicatorProcess];
-  
     
     UIActivityIndicatorView *indicatorProcess = [[UIActivityIndicatorView alloc] init];
     indicatorProcess.center = viewLoading.center;
@@ -43,12 +42,12 @@ static UIView *viewLoading = nil;
     [mainWindow addSubview:viewLoading];
 }
 
--(void) Display{
-    [self CreateViewLoading];
++(void) Show{
+    [LoadingView CreateViewLoading];
     [viewLoading setHidden:false];
 }
 
--(void) Hide{
++(void) Hide{
     [viewLoading setHidden:true];
     [viewLoading removeFromSuperview];
 }

@@ -13,19 +13,14 @@
 -(void)ServiceDataCoin:(HandlerResult) hResult
 {
 
-    [self execute:@"https://api.hitbtc.com/api/2/public/ticker" parameters:nil result:^(BOOL sucesso, id resultado){
-        if (sucesso) {
-            hResult(YES, resultado);
+    [self execute:@"https://api.hitbtc.com/api/2/public/ticker" parameters:nil result:^(BOOL success, id result){
+        if (success) {
+            hResult(YES, result);
         }else {
-            hResult(NO, resultado);
+            hResult(NO, result);
         }
      }];
     
-//    if ([Opcoes ehModoDemonstracao]) {
-//        hResultado(YES, nil);
-//    } else {
-//        hResultado(YES, resultado);
-//    }
 }
 
 @end
